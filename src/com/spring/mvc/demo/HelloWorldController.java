@@ -1,14 +1,15 @@
 package com.spring.mvc.demo;
 
-import javax.servlet.http.HttpServletRequest;
+
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.HttpServletBean;
 
 @Controller
+//assign as parent controller by request mapping
+@RequestMapping("/hello")
 public class HelloWorldController {
 	//need a controller  method to show the initial html form
 	@RequestMapping("/form")
