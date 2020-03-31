@@ -8,9 +8,13 @@
 <body>
 <form:form action="processForm" modelAttribute="student">
 First Name: <form:input path="firstName"/>
-<br>
+<br><br>
 Last Name: <form:input path="lastName"/>
-<br>
+<br><br>
+Operating System:
+Windows<form:checkbox path="softwareCheckbox" value="Windows"/>
+Linux<form:checkbox path="softwareCheckbox" value="Linux"/>
+Mac<form:checkbox path="softwareCheckbox" value="Mac"/>
 <input type="submit" value="submit">
 </form:form>
 </body>
