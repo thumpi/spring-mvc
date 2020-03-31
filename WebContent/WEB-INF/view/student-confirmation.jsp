@@ -6,6 +6,7 @@
 <title>Student REgistration Form</title>
 </head>
 <body>
-The student is confirmed: ${student.firstName} ${student.lastName} .
+The student is confirmed: ${student.firstName} ${student.lastName}.
+The favorite language selected is :${student.favouriteLanguage}
 </body>
 </html>
